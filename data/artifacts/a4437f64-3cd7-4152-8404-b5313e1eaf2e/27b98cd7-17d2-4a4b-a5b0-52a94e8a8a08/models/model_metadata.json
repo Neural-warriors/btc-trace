@@ -1,0 +1,64 @@
+{
+  "model_name": "IsolationForest",
+  "model_version": "1.0.0",
+  "model_type": "anomaly_detection",
+  "training_date": "2026-09-25T19:53:13.971292+00:00",
+  "feature_count": 25,
+  "feature_names": [
+    "amount_total_input",
+    "num_inputs",
+    "amount_total_output",
+    "num_outputs",
+    "max_single_output",
+    "min_single_output",
+    "mean_output",
+    "std_output",
+    "amount_fee",
+    "input_output_ratio",
+    "fee_ratio",
+    "is_round_amount",
+    "hour_of_day",
+    "day_of_week",
+    "is_weekend",
+    "minutes_since_midnight",
+    "inter_tx_time_seconds",
+    "is_burst",
+    "tx_count_last_1h",
+    "tx_count_last_24h",
+    "unique_asn_count",
+    "unique_country_count",
+    "port_diversity",
+    "is_standard_port",
+    "ip_tx_count"
+  ],
+  "hyperparameters": {
+    "contamination": 0.05,
+    "n_estimators": 200,
+    "random_state": 42
+  },
+  "metrics": {
+    "score_distribution": {
+      "mean": 0.1773702032504489,
+      "std": 0.19242539580947976,
+      "min": 0.0,
+      "max": 1.0,
+      "p50": 0.12381678322051119,
+      "p90": 0.3181681307104636,
+      "p99": 0.979884860504717
+    },
+    "alert_volume_at_thresholds": {
+      "0.5": 6,
+      "0.75": 2,
+      "0.9": 2,
+      "0.95": 2,
+      "0.99": 1
+    }
+  },
+  "dataset_version": "1.0.0",
+  "dataset_checksum": "7cdbddd4022c6cb3",
+  "random_seed": 42,
+  "train_rows": 350,
+  "val_rows": 75,
+  "test_rows": 75,
+  "total_alerts": 5
+}

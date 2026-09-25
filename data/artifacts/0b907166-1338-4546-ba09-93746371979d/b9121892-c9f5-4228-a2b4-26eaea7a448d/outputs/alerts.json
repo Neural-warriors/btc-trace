@@ -1,0 +1,1587 @@
+[
+  {
+    "alert_id": "7f682eee-20d6-4a90-bfb4-bedb1d83963b",
+    "entity_id": "00df89527df055beac0584b5e6c9ceed03437c8fa1e4187b48a2ace68b2a9c1e",
+    "entity_type": "transaction",
+    "risk_score": 0.5950000000000001,
+    "confidence_score": 0.745,
+    "priority_score": 0.5905,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 5348.425457740001
+      },
+      {
+        "num_inputs": 40.0
+      },
+      {
+        "amount_total_output": 5307.29012555
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 5307.29012555
+      }
+    ],
+    "linked_transactions": [
+      "00df89527df055beac0584b5e6c9ceed03437c8fa1e4187b48a2ace68b2a9c1e"
+    ],
+    "linked_wallets": [
+      "bc19xv2aqagaucx07zkmmagvjzvsw45j3laeuqzqhy",
+      "bc1yahn2zv5ff44t8myu3qud3dj60zl99a2a0xnsrz",
+      "3VPAr6iSpta7w4qH1TQitoxypT4Pr4JTjD"
+    ],
+    "linked_ips": [
+      "203.0.113.175"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a High-risk Structural Anomaly. Specifically, the Amount Total Input (5,348), Num Inputs (40), and Amount Total Output (5,307) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.869003+00:00"
+  },
+  {
+    "alert_id": "03dded11-0542-4af0-8995-72a103881d06",
+    "entity_id": "8b2045473f7f0650d77a8729fce20ab75137d3b5070faddd13cb121461a99f18",
+    "entity_type": "transaction",
+    "risk_score": 0.5479269458972889,
+    "confidence_score": 0.7529336608038277,
+    "priority_score": 0.5846362657795217,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 5718.12942823
+      },
+      {
+        "num_inputs": 41.0
+      },
+      {
+        "amount_total_output": 5680.18170832
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 2497.18798415
+      }
+    ],
+    "linked_transactions": [
+      "8b2045473f7f0650d77a8729fce20ab75137d3b5070faddd13cb121461a99f18"
+    ],
+    "linked_wallets": [
+      "19LKHCVuNws4NsLuu4T3qtQPNGMwiXHaCH",
+      "3j83noBtnE4eTgv6bwY5juuMRLBMgiNwE8",
+      "bc1xd7zu87fnp49rhrzmsrw0nfvga2f5q0pyj04u4f"
+    ],
+    "linked_ips": [
+      "203.0.113.139"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (5,718), Num Inputs (41), and Amount Total Output (5,680) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.866016+00:00"
+  },
+  {
+    "alert_id": "c4997869-d7d8-411c-8b41-cd52769b4b86",
+    "entity_id": "85d73bfcf225a0cb43a1e6a0c82e9b7ebb49c5b72109e92a1e036e839ebcc1e9",
+    "entity_type": "transaction",
+    "risk_score": 0.5612804478838613,
+    "confidence_score": 0.7506830705813716,
+    "priority_score": 0.5819731899047282,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4788.44765045
+      },
+      {
+        "num_inputs": 38.0
+      },
+      {
+        "amount_total_output": 4749.67160429
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 2869.39286838
+      }
+    ],
+    "linked_transactions": [
+      "85d73bfcf225a0cb43a1e6a0c82e9b7ebb49c5b72109e92a1e036e839ebcc1e9"
+    ],
+    "linked_wallets": [
+      "3oxbRyj4QHQNssnu1fBvVEPmACqQc2JGMe",
+      "3tLDA9b8WrTnzKiHzWddeKwi9j1PJdGeV6",
+      "3k5vGa48aHnFTRaWxHJyNFqdStyMdmckoN"
+    ],
+    "linked_ips": [
+      "198.51.100.167"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a High-risk Structural Anomaly. Specifically, the Amount Total Input (4,788), Num Inputs (38), and Amount Total Output (4,750) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.877442+00:00"
+  },
+  {
+    "alert_id": "43df7ed7-075b-4fa3-84ee-a3cf07628bd6",
+    "entity_id": "4d3aa7fbe3e85fb588ad85adf8437f4e4dbdca123a41f2fb6fda1403a59f907c",
+    "entity_type": "transaction",
+    "risk_score": 0.532963145544061,
+    "confidence_score": 0.7554556496274054,
+    "priority_score": 0.5764145822146582,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 6136.72024649
+      },
+      {
+        "num_inputs": 46.0
+      },
+      {
+        "amount_total_output": 6112.36956153
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 3439.15791184
+      }
+    ],
+    "linked_transactions": [
+      "4d3aa7fbe3e85fb588ad85adf8437f4e4dbdca123a41f2fb6fda1403a59f907c"
+    ],
+    "linked_wallets": [
+      "bc1t7vqx4fpd6gcazul79kfcsgp60t4wflcr6unez7",
+      "bc1t40lane3g983cjx2tstcaxvufsqy70aw5lg865f",
+      "3kh9qfNbYHu5aRAXDBk4XEhFUC5hiunDio"
+    ],
+    "linked_ips": [
+      "192.0.2.202"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (6,137), Num Inputs (46), and Amount Total Output (6,112) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.861305+00:00"
+  },
+  {
+    "alert_id": "fe485983-3322-4d5e-b659-4eaab7a6bc41",
+    "entity_id": "2fd6551b3fb4a918e4770d4ee0c23c54398fa31b024f082967404028265b3212",
+    "entity_type": "transaction",
+    "risk_score": 0.5428056697212914,
+    "confidence_score": 0.7537967972379847,
+    "priority_score": 0.5718224410041702,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4366.45986024
+      },
+      {
+        "num_inputs": 40.0
+      },
+      {
+        "amount_total_output": 4348.6945230500005
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 3809.1676864
+      }
+    ],
+    "linked_transactions": [
+      "2fd6551b3fb4a918e4770d4ee0c23c54398fa31b024f082967404028265b3212"
+    ],
+    "linked_wallets": [
+      "bc1ywa9n6zxuge2ldrg6fgauxe7pe2yt54307lnw7c",
+      "15LpgWkuas6AFicV8nC1o5mJAsuRtR5bCT",
+      "bc1wklxt5mdvd365neqwsun2laukt93p7ca6a4ky9d"
+    ],
+    "linked_ips": [
+      "203.0.113.179"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (4,366), Num Inputs (40), and Amount Total Output (4,349) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.882735+00:00"
+  },
+  {
+    "alert_id": "0940e025-6f7e-431e-b8bd-1a427c065e83",
+    "entity_id": "0cf1b0827dfbdf6553b8d5fce01e2948ae984aaef1c37ddb8d055a31dd0d829b",
+    "entity_type": "transaction",
+    "risk_score": 0.38582773880294774,
+    "confidence_score": 0.7802537518871436,
+    "priority_score": 0.5655727688479117,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 320.81499718
+      },
+      {
+        "num_inputs": 2.0
+      },
+      {
+        "amount_total_output": 317.75807638
+      },
+      {
+        "num_outputs": 32.0
+      },
+      {
+        "max_single_output": 17.1460406
+      }
+    ],
+    "linked_transactions": [
+      "0cf1b0827dfbdf6553b8d5fce01e2948ae984aaef1c37ddb8d055a31dd0d829b"
+    ],
+    "linked_wallets": [
+      "1a3QKofifwzCYRp3fSgDRWDjkMnkfjwKxv",
+      "bc1zctwc6rkaua6pnkhkkjh9k5ewj9a35ageu5w57r"
+    ],
+    "linked_ips": [
+      "198.51.100.101"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (320.81), Num Inputs (2), and Amount Total Output (317.76) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.856505+00:00"
+  },
+  {
+    "alert_id": "7ea8a161-bc2e-401d-8845-8f7327d21448",
+    "entity_id": "e19d164ccd9d124a86caa6c9a4f5aee2f305ee8ceb332d09570a6f6936c099f8",
+    "entity_type": "transaction",
+    "risk_score": 0.5307126109396602,
+    "confidence_score": 0.7558349532124169,
+    "priority_score": 0.5651780525275212,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4771.88422895
+      },
+      {
+        "num_inputs": 36.0
+      },
+      {
+        "amount_total_output": 4759.63442255
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 2666.16382624
+      }
+    ],
+    "linked_transactions": [
+      "e19d164ccd9d124a86caa6c9a4f5aee2f305ee8ceb332d09570a6f6936c099f8"
+    ],
+    "linked_wallets": [
+      "bc1cslzs7437u60k5tw2f0mpzha68x44vc3vasaj92",
+      "bc18k22hyavqk53xgluzh83zkft2t9eej8vapcjvh7",
+      "1yjCS5B8DzW83qNdy91EsPVeHDiw1PsJnx"
+    ],
+    "linked_ips": [
+      "192.0.2.78"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (4,772), Num Inputs (36), and Amount Total Output (4,760) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.868614+00:00"
+  },
+  {
+    "alert_id": "7f1ded2f-1543-40d9-a16a-a1d0b7fcdc36",
+    "entity_id": "44b9018e7f98652c953080011e4b179dcb5b336ff5c7f788fe1dcf8a72bd449b",
+    "entity_type": "transaction",
+    "risk_score": 0.3810955435965105,
+    "confidence_score": 0.7810513128769927,
+    "priority_score": 0.5629727200210041,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 240.41063966
+      },
+      {
+        "num_inputs": 1.0
+      },
+      {
+        "amount_total_output": 238.78732499
+      },
+      {
+        "num_outputs": 33.0
+      },
+      {
+        "max_single_output": 12.68257779
+      }
+    ],
+    "linked_transactions": [
+      "44b9018e7f98652c953080011e4b179dcb5b336ff5c7f788fe1dcf8a72bd449b"
+    ],
+    "linked_wallets": [
+      "bc1h9yvulaadzn9wl2pseyad3rzqka83vhnheagdng"
+    ],
+    "linked_ips": [
+      "203.0.113.12"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (240.41), Num Inputs (1), and Amount Total Output (238.79) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.877758+00:00"
+  },
+  {
+    "alert_id": "a8f29918-5f53-4395-8cd0-62e813ded618",
+    "entity_id": "693f74deafef4f8a8bce4eac54e140a8fa83e1d3b185860a8ee934b4fcea81de",
+    "entity_type": "transaction",
+    "risk_score": 0.5428707064244848,
+    "confidence_score": 0.7537858359958733,
+    "priority_score": 0.5618581746534529,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 5372.54516441
+      },
+      {
+        "num_inputs": 42.0
+      },
+      {
+        "amount_total_output": 5352.45389681
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 5352.45389681
+      }
+    ],
+    "linked_transactions": [
+      "693f74deafef4f8a8bce4eac54e140a8fa83e1d3b185860a8ee934b4fcea81de"
+    ],
+    "linked_wallets": [
+      "3FuQDEfueeVWRRm5QijdpEjeFPpz5uotj3",
+      "17kKxnQPMJ5xJr89UkTgGfkEdtYk3mEioS",
+      "1VHgSnjsroCZTKvdhhjx6ZVF951TL9qtDF"
+    ],
+    "linked_ips": [
+      "198.51.100.27"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (5,373), Num Inputs (42), and Amount Total Output (5,352) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.862499+00:00"
+  },
+  {
+    "alert_id": "41dd1396-2eb3-4f3e-a581-5f647aed7516",
+    "entity_id": "43857ad0214891063c8a561a6260693224c84674c6c2aa95f08c17555451613c",
+    "entity_type": "transaction",
+    "risk_score": 0.3767480054967213,
+    "confidence_score": 0.7817840440174065,
+    "priority_score": 0.5605840165032547,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 417.20289542
+      },
+      {
+        "num_inputs": 3.0
+      },
+      {
+        "amount_total_output": 413.20846077999994
+      },
+      {
+        "num_outputs": 20.0
+      },
+      {
+        "max_single_output": 37.82832232
+      }
+    ],
+    "linked_transactions": [
+      "43857ad0214891063c8a561a6260693224c84674c6c2aa95f08c17555451613c"
+    ],
+    "linked_wallets": [
+      "bc1y8cuq96dd2gd0h44lrmufqecju5gatpx6h479k7",
+      "1WZS9mLRF3uzvFm8Aj7REtB4jy718yFKkm",
+      "bc1vt39h2m0umeqr76ut4nx9u2q5yswx4pks3p7nh9"
+    ],
+    "linked_ips": [
+      "203.0.113.105"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (417.20), Num Inputs (3), and Amount Total Output (413.21) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.855619+00:00"
+  },
+  {
+    "alert_id": "624abded-8231-4a98-b6fe-f586519b7067",
+    "entity_id": "808faa89921dd48adc26ec830f525ad3a6ba013c419371a4cfe54e62e26a257e",
+    "entity_type": "transaction",
+    "risk_score": 0.5285812074346494,
+    "confidence_score": 0.7561941785222501,
+    "priority_score": 0.5540069780174647,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4094.78209436
+      },
+      {
+        "num_inputs": 31.0
+      },
+      {
+        "amount_total_output": 4076.0320878
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 4076.0320878
+      }
+    ],
+    "linked_transactions": [
+      "808faa89921dd48adc26ec830f525ad3a6ba013c419371a4cfe54e62e26a257e"
+    ],
+    "linked_wallets": [
+      "bc1t2v4scngqtanc0cm4qd5q8025xms4jqltdc02ku",
+      "3ezyhop9E1cCTw8WKYKdrsekt2JJTY9aGH",
+      "16PEcr2JhMS3payhP3exYp3NVr61RsrdzJ"
+    ],
+    "linked_ips": [
+      "192.0.2.37"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (4,095), Num Inputs (31), and Amount Total Output (4,076) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.873402+00:00"
+  },
+  {
+    "alert_id": "9e0e6598-1da2-45c4-a98a-31969f8c9abc",
+    "entity_id": "21519de491f18c0e61adfc125b130be5fcea47532ad56f3c7361965baaeb7721",
+    "entity_type": "transaction",
+    "risk_score": 0.4857299453628052,
+    "confidence_score": 0.7634163013433475,
+    "priority_score": 0.5504628576206874,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4087.73397046
+      },
+      {
+        "num_inputs": 32.0
+      },
+      {
+        "amount_total_output": 4063.29919282
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 1602.43119665
+      }
+    ],
+    "linked_transactions": [
+      "21519de491f18c0e61adfc125b130be5fcea47532ad56f3c7361965baaeb7721"
+    ],
+    "linked_wallets": [
+      "1pFbzjSkx1YsH4UynQ2KFmAzwhjZUEfYB7",
+      "3D4UkmZhuqmHjboYELgfBGhtnhAcHcurBw",
+      "bc12zv5zpzx94gp57qzwr9wxvvp2ygmaeznglc9rhf"
+    ],
+    "linked_ips": [
+      "192.0.2.114"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (4,088), Num Inputs (32), and Amount Total Output (4,063) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.862626+00:00"
+  },
+  {
+    "alert_id": "43209ec3-6385-4ad1-b827-b274fe30b1c2",
+    "entity_id": "4f1ae1241632c88af3e5914c4d30fde7cba7797b117d985fb0f4b452afb1e04c",
+    "entity_type": "transaction",
+    "risk_score": 0.503480969880252,
+    "confidence_score": 0.7604245556381597,
+    "priority_score": 0.5502159486195991,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4023.96112547
+      },
+      {
+        "num_inputs": 37.0
+      },
+      {
+        "amount_total_output": 4006.78216281
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 2567.99579924
+      }
+    ],
+    "linked_transactions": [
+      "4f1ae1241632c88af3e5914c4d30fde7cba7797b117d985fb0f4b452afb1e04c"
+    ],
+    "linked_wallets": [
+      "bc1c9303gxg058tyfx7yd34cr6uhzvjgr9hvvjg2dn",
+      "1mRUpFMZpW8ugUDNxibeA8rsvZiRbPNgaz",
+      "1bEy8WvKPv9bCQBXzE3VdqJ248u9YNVvJj"
+    ],
+    "linked_ips": [
+      "198.51.100.180"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (4,024), Num Inputs (37), and Amount Total Output (4,007) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.891966+00:00"
+  },
+  {
+    "alert_id": "60669f2e-50e4-4832-860b-5afe178af62b",
+    "entity_id": "b2dd9c3235e9613c807516c44425418f5cec88423453eb907a198ca6fed76d4f",
+    "entity_type": "transaction",
+    "risk_score": 0.4799880572155054,
+    "confidence_score": 0.7643840353007575,
+    "priority_score": 0.5373080449195304,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 2224.60805957
+      },
+      {
+        "num_inputs": 16.0
+      },
+      {
+        "amount_total_output": 2210.92376113
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 1166.32143898
+      }
+    ],
+    "linked_transactions": [
+      "b2dd9c3235e9613c807516c44425418f5cec88423453eb907a198ca6fed76d4f"
+    ],
+    "linked_wallets": [
+      "1pPUKE56DeREzVkdXbG78kqqBoAp1NitL4",
+      "36dCZcbYUbKRcTftpfHcHEhLg3Q9K3ApY4",
+      "3mPdU611LztFLbZJPVojDE38EZ71GvJ1Tr"
+    ],
+    "linked_ips": [
+      "198.51.100.96"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (2,225), Num Inputs (16), and Amount Total Output (2,211) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.878611+00:00"
+  },
+  {
+    "alert_id": "e0213750-6edd-472a-b6b8-194178ff7438",
+    "entity_id": "5dff35ad618667dcc32aecd85fc2bd14ec6fd4b714293961e8b5c3517c84dcf9",
+    "entity_type": "transaction",
+    "risk_score": 0.49565323248676846,
+    "confidence_score": 0.7617438372213312,
+    "priority_score": 0.5359150906584604,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 3171.27848455
+      },
+      {
+        "num_inputs": 25.0
+      },
+      {
+        "amount_total_output": 3156.21288282
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 3156.21288282
+      }
+    ],
+    "linked_transactions": [
+      "5dff35ad618667dcc32aecd85fc2bd14ec6fd4b714293961e8b5c3517c84dcf9"
+    ],
+    "linked_wallets": [
+      "3NJP5juBXC42TYjNd5ybBinxCJyx6bXAFW",
+      "bc18jcx9flyec6s6x85tfemmth8sgmqnjn3wh23zdq",
+      "1NfDtHBNjdDCeUfNVVJnXMd3KtF3APyyBm"
+    ],
+    "linked_ips": [
+      "198.51.100.94"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (3,171), Num Inputs (25), and Amount Total Output (3,156) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.868218+00:00"
+  },
+  {
+    "alert_id": "9586703b-2a6a-4c89-a51e-1936d4789450",
+    "entity_id": "632903e4461475b85d7d744769db3220834cd5dc1b07bf682c2278227ab6c20d",
+    "entity_type": "transaction",
+    "risk_score": 0.4724400234888902,
+    "confidence_score": 0.7656561758164793,
+    "priority_score": 0.5331608668382779,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4125.2049168
+      },
+      {
+        "num_inputs": 27.0
+      },
+      {
+        "amount_total_output": 4114.75092548
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 2171.52756111
+      }
+    ],
+    "linked_transactions": [
+      "632903e4461475b85d7d744769db3220834cd5dc1b07bf682c2278227ab6c20d"
+    ],
+    "linked_wallets": [
+      "bc1s33rmz65rwvp7vz6q0drpa2sal4ng80q3xmjunp",
+      "3ZHSe3KtASc2Ypsi77kNNxNJVeZ3usEAre",
+      "35s8ZwV98MZwMp2bodeAaZMu6Degt2U1y6"
+    ],
+    "linked_ips": [
+      "203.0.113.179"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (4,125), Num Inputs (27), and Amount Total Output (4,115) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.865412+00:00"
+  },
+  {
+    "alert_id": "3266a4fa-8697-4093-bda4-ac14a121b2ca",
+    "entity_id": "63a2b70d447084a300417d8be1b05a647ff1c4877d2825cbca849905626c67ae",
+    "entity_type": "transaction",
+    "risk_score": 0.45208665070159465,
+    "confidence_score": 0.7690865195446751,
+    "priority_score": 0.5319779462843593,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 3076.9520066500004
+      },
+      {
+        "num_inputs": 23.0
+      },
+      {
+        "amount_total_output": 3069.35099835
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 1306.86011398
+      }
+    ],
+    "linked_transactions": [
+      "63a2b70d447084a300417d8be1b05a647ff1c4877d2825cbca849905626c67ae"
+    ],
+    "linked_wallets": [
+      "bc1a9jf587t8rdzc9xm4yets5aqvmt26du8j6m22vz",
+      "bc1qfpl6uedxn5ar8xa08cwrlzwtrp726yh0knhnrr",
+      "bc150v6h82d4azgyxen6svyxf5384axgfc8k9jma24"
+    ],
+    "linked_ips": [
+      "198.51.100.158"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Medium-risk Structural Anomaly. Specifically, the Amount Total Input (3,077), Num Inputs (23), and Amount Total Output (3,069) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.864582+00:00"
+  },
+  {
+    "alert_id": "60ac2f86-b7cb-4e70-bd38-169993653ae1",
+    "entity_id": "789a2e14bb08639af19813b7356c7711694cf41bb7b8cc7e662f4f3c153387d4",
+    "entity_type": "transaction",
+    "risk_score": 0.351307146389653,
+    "confidence_score": 0.7260718292601709,
+    "priority_score": 0.528605836611843,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 161.6587847
+      },
+      {
+        "num_inputs": 1.0
+      },
+      {
+        "amount_total_output": 161.01596011999996
+      },
+      {
+        "num_outputs": 36.0
+      },
+      {
+        "max_single_output": 7.65199001
+      }
+    ],
+    "linked_transactions": [
+      "789a2e14bb08639af19813b7356c7711694cf41bb7b8cc7e662f4f3c153387d4"
+    ],
+    "linked_wallets": [
+      "3Ljbr9hFZ7TmHQkZDNK6L3Ca1qaKfQmqXz"
+    ],
+    "linked_ips": [
+      "192.0.2.84"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (161.66), Num Inputs (1), and Amount Total Output (161.02) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.878800+00:00"
+  },
+  {
+    "alert_id": "f3e2450c-d961-4c06-9e99-59619076a25b",
+    "entity_id": "40ed2c36541d80899b426e4ad41909313edffea61f6e12f11a73031f3b612198",
+    "entity_type": "transaction",
+    "risk_score": 0.3489954197491048,
+    "confidence_score": 0.7264614461097014,
+    "priority_score": 0.5273356856823733,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 208.16036943
+      },
+      {
+        "num_inputs": 2.0
+      },
+      {
+        "amount_total_output": 206.08528131999998
+      },
+      {
+        "num_outputs": 19.0
+      },
+      {
+        "max_single_output": 17.98701039
+      }
+    ],
+    "linked_transactions": [
+      "40ed2c36541d80899b426e4ad41909313edffea61f6e12f11a73031f3b612198"
+    ],
+    "linked_wallets": [
+      "1h932Fu7aTF5djn45RgKTG4w2Y51XjQKuu",
+      "bc1fuppl7k5wvllw7gt408zsmq55wh3yyqafdejy2n"
+    ],
+    "linked_ips": [
+      "198.51.100.62"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (208.16), Num Inputs (2), and Amount Total Output (206.09) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.859481+00:00"
+  },
+  {
+    "alert_id": "e410130a-a8d7-4e41-9722-4a4de3672f86",
+    "entity_id": "645495b7979240c4b1cd5c362d2c3bb226ded21b972bbd9e6ae04515889105a6",
+    "entity_type": "transaction",
+    "risk_score": 0.3486109299232034,
+    "confidence_score": 0.7265262477657523,
+    "priority_score": 0.5271244322836477,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 580.07317008
+      },
+      {
+        "num_inputs": 3.0
+      },
+      {
+        "amount_total_output": 576.5931850899999
+      },
+      {
+        "num_outputs": 45.0
+      },
+      {
+        "max_single_output": 25.87481407
+      }
+    ],
+    "linked_transactions": [
+      "645495b7979240c4b1cd5c362d2c3bb226ded21b972bbd9e6ae04515889105a6"
+    ],
+    "linked_wallets": [
+      "1giMjSHPe5icDDoAaFvLfmXv9NXH7XyWkN",
+      "1f9XNY55XMdxhpa2yVHYAXyNmgsgv5HXkR",
+      "bc1qve2atuguf3jx0uyn6ymy0aumh6mlrx4nej0s9l"
+    ],
+    "linked_ips": [
+      "203.0.113.252"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (580.07), Num Inputs (3), and Amount Total Output (576.59) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.854277+00:00"
+  },
+  {
+    "alert_id": "cc09ea72-fba4-4863-b3d3-208c87f4972a",
+    "entity_id": "66f783fd5876012b0cea4f60d4e6f1338ddf54e134389c22a1d017a0fd8bb09e",
+    "entity_type": "transaction",
+    "risk_score": 0.43825936079548156,
+    "confidence_score": 0.7714169616636829,
+    "priority_score": 0.5243807049763938,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 2270.63659488
+      },
+      {
+        "num_inputs": 15.0
+      },
+      {
+        "amount_total_output": 2256.94700887
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 1170.79350674
+      }
+    ],
+    "linked_transactions": [
+      "66f783fd5876012b0cea4f60d4e6f1338ddf54e134389c22a1d017a0fd8bb09e"
+    ],
+    "linked_wallets": [
+      "bc1mc06jqu9jjfmlkrhm9y48av22rema3rug8tnvya",
+      "1QqKGYL2SwBsZomj68wm7t8JgNHwhTAWvg",
+      "bc1kexsx2s68844rwve2jp4e83d0vdah50hrelu0s5"
+    ],
+    "linked_ips": [
+      "192.0.2.115"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (2,271), Num Inputs (15), and Amount Total Output (2,257) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.854124+00:00"
+  },
+  {
+    "alert_id": "8e640705-e0c5-4049-9f02-d6fbdf93d40d",
+    "entity_id": "d037feb0fb474d02490e5c66a9aed1e7ca1d976e588a794f2407c311fc7ff316",
+    "entity_type": "transaction",
+    "risk_score": 0.42814342151933327,
+    "confidence_score": 0.7731218952495506,
+    "priority_score": 0.5188226214864651,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 1778.62681093
+      },
+      {
+        "num_inputs": 11.0
+      },
+      {
+        "amount_total_output": 1769.12914447
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 1193.11246665
+      }
+    ],
+    "linked_transactions": [
+      "d037feb0fb474d02490e5c66a9aed1e7ca1d976e588a794f2407c311fc7ff316"
+    ],
+    "linked_wallets": [
+      "3ZhTF5xRqPgqEncRy2YAvPcBfhxDcMNw3T",
+      "1Uep4qKcpB49WZbDHrpN4BvQDU9CV98nxs",
+      "1JnYLvEyqdbu2YafietnqzpikDydfqSjsS"
+    ],
+    "linked_ips": [
+      "192.0.2.248"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (1,779), Num Inputs (11), and Amount Total Output (1,769) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.865822+00:00"
+  },
+  {
+    "alert_id": "6cec08b2-d204-4bf1-939c-8fd684a54dfa",
+    "entity_id": "3007d940784501ec3f1bba2556e9731532e9797e513d7e2d0809f76ee91c4578",
+    "entity_type": "transaction",
+    "risk_score": 0.32603975839675997,
+    "confidence_score": 0.7303303777982989,
+    "priority_score": 0.5147229683775456,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 139.91495683
+      },
+      {
+        "num_inputs": 2.0
+      },
+      {
+        "amount_total_output": 139.76722689999997
+      },
+      {
+        "num_outputs": 38.0
+      },
+      {
+        "max_single_output": 7.3678967
+      }
+    ],
+    "linked_transactions": [
+      "3007d940784501ec3f1bba2556e9731532e9797e513d7e2d0809f76ee91c4578"
+    ],
+    "linked_wallets": [
+      "3u94Nc4vbCfbHXYumUXz8KHsHrkscCZKEW",
+      "1CaPZZyDTM4vHqxu7fRrdcrY3LeiTFyD7B"
+    ],
+    "linked_ips": [
+      "192.0.2.92"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (139.91), Num Inputs (2), and Amount Total Output (139.77) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.870818+00:00"
+  },
+  {
+    "alert_id": "338ae289-305a-497b-b294-7e6deacca151",
+    "entity_id": "e2a057ae565ad334760ad82649e96328ce51d50df8759e86a5e4b1257f521ffb",
+    "entity_type": "transaction",
+    "risk_score": 0.3216889818269911,
+    "confidence_score": 0.7310636547482599,
+    "priority_score": 0.5123324855206726,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 13.02116442
+      },
+      {
+        "num_inputs": 1.0
+      },
+      {
+        "amount_total_output": 12.992139850000001
+      },
+      {
+        "num_outputs": 50.0
+      },
+      {
+        "max_single_output": 0.45913756
+      }
+    ],
+    "linked_transactions": [
+      "e2a057ae565ad334760ad82649e96328ce51d50df8759e86a5e4b1257f521ffb"
+    ],
+    "linked_wallets": [
+      "3NVx1zRumGShb9bu76hSpjbHMYeeos5oz6"
+    ],
+    "linked_ips": [
+      "203.0.113.67"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (13.02), Num Inputs (1), and Amount Total Output (12.99) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.867958+00:00"
+  },
+  {
+    "alert_id": "1b1af49b-613d-43a1-b74c-f243200bdf0b",
+    "entity_id": "96f0b015a4baa7c520af7e4255483db706b04a1da07047e4afd588fb6c658220",
+    "entity_type": "transaction",
+    "risk_score": 0.31982766959828773,
+    "confidence_score": 0.7313773590564684,
+    "priority_score": 0.5113098094759131,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 99.08858962
+      },
+      {
+        "num_inputs": 1.0
+      },
+      {
+        "amount_total_output": 98.51949760000001
+      },
+      {
+        "num_outputs": 37.0
+      },
+      {
+        "max_single_output": 4.42274674
+      }
+    ],
+    "linked_transactions": [
+      "96f0b015a4baa7c520af7e4255483db706b04a1da07047e4afd588fb6c658220"
+    ],
+    "linked_wallets": [
+      "3F4np6PQ7Z2sn9PmAM22kKg7L4Ny92YthC"
+    ],
+    "linked_ips": [
+      "203.0.113.228"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (99.09), Num Inputs (1), and Amount Total Output (98.52) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.874448+00:00"
+  },
+  {
+    "alert_id": "2f206441-cbaa-465d-8756-77bbc8a08934",
+    "entity_id": "6b1f07b9cdcd9aacc34e49cfaa7741f359f0a86b640d64d7ee7193f1493ab4b1",
+    "entity_type": "transaction",
+    "risk_score": 0.3167833146304072,
+    "confidence_score": 0.7318904525903809,
+    "priority_score": 0.5096371245553586,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 389.26993663
+      },
+      {
+        "num_inputs": 3.0
+      },
+      {
+        "amount_total_output": 387.83760781999996
+      },
+      {
+        "num_outputs": 13.0
+      },
+      {
+        "max_single_output": 49.32012352
+      }
+    ],
+    "linked_transactions": [
+      "6b1f07b9cdcd9aacc34e49cfaa7741f359f0a86b640d64d7ee7193f1493ab4b1"
+    ],
+    "linked_wallets": [
+      "bc1xzutvc6hlvjmul4sdk0rycfgcpdt9nunsj05pyv",
+      "31BzMXn1XyBwYnSU9ZJ8Ho1YcmeY36Pvyt",
+      "1YhD2ykQDUeMcuu14P2uR1KtwGXr6vY5S1"
+    ],
+    "linked_ips": [
+      "192.0.2.214"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (389.27), Num Inputs (3), and Amount Total Output (387.84) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.857757+00:00"
+  },
+  {
+    "alert_id": "e5af8e0f-f6dc-468b-8ef0-30e76845fe89",
+    "entity_id": "c7febd07c37d45c532e93f6e6f422c8bfc122aa1fdad061d4ce6e78321a30bf3",
+    "entity_type": "transaction",
+    "risk_score": 0.3058524322695658,
+    "confidence_score": 0.7337327361343429,
+    "priority_score": 0.5036312802020423,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 72.85763534
+      },
+      {
+        "num_inputs": 1.0
+      },
+      {
+        "amount_total_output": 72.18469437
+      },
+      {
+        "num_outputs": 12.0
+      },
+      {
+        "max_single_output": 9.20703768
+      }
+    ],
+    "linked_transactions": [
+      "c7febd07c37d45c532e93f6e6f422c8bfc122aa1fdad061d4ce6e78321a30bf3"
+    ],
+    "linked_wallets": [
+      "3QuhcaQv3zcKyy3uZQZURxMafTvZqxM1Rx"
+    ],
+    "linked_ips": [
+      "192.0.2.17"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (72.86), Num Inputs (1), and Amount Total Output (72.18) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.888353+00:00"
+  },
+  {
+    "alert_id": "2ad34240-33e2-44a4-ba76-505a65b20aa7",
+    "entity_id": "6be497313fb030810f56b396176ad6595be04bd05efca1220a6690343852bf51",
+    "entity_type": "transaction",
+    "risk_score": 0.3861532431495949,
+    "confidence_score": 0.6949179927275964,
+    "priority_score": 0.46016734370803586,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 5051.716521509999
+      },
+      {
+        "num_inputs": 37.0
+      },
+      {
+        "amount_total_output": 5040.06937715
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 3489.19095686
+      }
+    ],
+    "linked_transactions": [
+      "6be497313fb030810f56b396176ad6595be04bd05efca1220a6690343852bf51"
+    ],
+    "linked_wallets": [
+      "bc18r9u4le6pfesmwrhhq7smnw5mn4g7lzgnxnz2a5",
+      "1mmsuuD2FyPEKN17XdQ6davVb56hEdoQxt",
+      "3RM6BxbMSu91H3P3zS4Eo9DnTEag1TdHXD"
+    ],
+    "linked_ips": [
+      "203.0.113.70"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (5,052), Num Inputs (37), and Amount Total Output (5,040) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.858861+00:00"
+  },
+  {
+    "alert_id": "568c254e-4737-4b71-bb05-01fa343c832f",
+    "entity_id": "63dada6a5e7bb673246556663b309d4801679a2ba443dc1144523e880cdfeb79",
+    "entity_type": "transaction",
+    "risk_score": 0.3464020595519324,
+    "confidence_score": 0.7016176304125956,
+    "priority_score": 0.44832652485493807,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 3571.7266386599995
+      },
+      {
+        "num_inputs": 24.0
+      },
+      {
+        "amount_total_output": 3553.18950497
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 1672.95799206
+      }
+    ],
+    "linked_transactions": [
+      "63dada6a5e7bb673246556663b309d4801679a2ba443dc1144523e880cdfeb79"
+    ],
+    "linked_wallets": [
+      "1ky5nLcWrQ7gLqPtUgMuCp5xY7eiknVmm8",
+      "bc1zjxk7ruzxxr93cwshegduhhrduft3l5qtld2mcx",
+      "3tAdFXZHcy2E6Z6miiK5ZpXVASsN3KjuE1"
+    ],
+    "linked_ips": [
+      "198.51.100.122"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (3,572), Num Inputs (24), and Amount Total Output (3,553) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.886069+00:00"
+  },
+  {
+    "alert_id": "f8acbb12-635a-46d1-8b7c-d49857742893",
+    "entity_id": "4336b0787dfa39db962bffda93c6efbb5e31d736c33d49fddd6e896c5d6dee62",
+    "entity_type": "transaction",
+    "risk_score": 0.31566303627815445,
+    "confidence_score": 0.7067983646722211,
+    "priority_score": 0.42143733116855897,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 1604.4942224499998
+      },
+      {
+        "num_inputs": 14.0
+      },
+      {
+        "amount_total_output": 1590.1480289699998
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 1309.5728605
+      }
+    ],
+    "linked_transactions": [
+      "4336b0787dfa39db962bffda93c6efbb5e31d736c33d49fddd6e896c5d6dee62"
+    ],
+    "linked_wallets": [
+      "1Wxq9Y9t2uEnGp5soQ6X3srTy4yrp9srtN",
+      "1mNi1YCquVfDaJ1soTEpd7ikzNh2Dt5arq",
+      "bc1f08l8ecg60vvlpfrjzkfnj4yun7cvhzrrj9e77d"
+    ],
+    "linked_ips": [
+      "203.0.113.45"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (1,604), Num Inputs (14), and Amount Total Output (1,590) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.892162+00:00"
+  },
+  {
+    "alert_id": "885e9e2f-2159-42fa-ae75-6623fe2660d1",
+    "entity_id": "d8dea56a10054fa7e30431a3d85dd5d3da6d6a8b06f40679011be97f8a9a6a94",
+    "entity_type": "transaction",
+    "risk_score": 0.3017042841709284,
+    "confidence_score": 0.7344318622183829,
+    "priority_score": 0.4213521291680719,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 158.92778364999998
+      },
+      {
+        "num_inputs": 5.0
+      },
+      {
+        "amount_total_output": 158.22899568
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 133.64623183
+      }
+    ],
+    "linked_transactions": [
+      "d8dea56a10054fa7e30431a3d85dd5d3da6d6a8b06f40679011be97f8a9a6a94"
+    ],
+    "linked_wallets": [
+      "1ELSJiNC6ZD4x9vCyG6yTp34ciR6Y69hwd",
+      "bc1v7ee2pgc0c6v47jwar7eh30444lqgya2233n4kj",
+      "347YcBXN2rfwWypynHrDRfq171VQsyxizB"
+    ],
+    "linked_ips": [
+      "192.0.2.97"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (158.93), Num Inputs (5), and Amount Total Output (158.23) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.874050+00:00"
+  },
+  {
+    "alert_id": "035bba60-6b97-4288-8c41-8c98253d6571",
+    "entity_id": "9dc907e850263eb9f9434ee8a3c47f77a1678b09316d150453dc88b314bea36b",
+    "entity_type": "transaction",
+    "risk_score": 0.3131558510292076,
+    "confidence_score": 0.7325018228602459,
+    "priority_score": 0.41764405747559835,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 107.77311502999999
+      },
+      {
+        "num_inputs": 5.0
+      },
+      {
+        "amount_total_output": 107.64641668
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 107.64641668
+      }
+    ],
+    "linked_transactions": [
+      "9dc907e850263eb9f9434ee8a3c47f77a1678b09316d150453dc88b314bea36b"
+    ],
+    "linked_wallets": [
+      "3hxQaeET5R33WyzTEEux2oTL41uqeHuCTT",
+      "1xoGa3anGTSAcXoFhyQoRPk2J1ERhaxJP5",
+      "1bnghH9FhDQBzW9KtekUCPavKxVQkwj1yW"
+    ],
+    "linked_ips": [
+      "192.0.2.198"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (107.77), Num Inputs (5), and Amount Total Output (107.65) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.880083+00:00"
+  },
+  {
+    "alert_id": "9b8f22db-3573-4243-8efc-8d78ffb72184",
+    "entity_id": "cd860539c5dbd95938080f48a521b1b27fb13669a1591f23bd22268f74b614db",
+    "entity_type": "transaction",
+    "risk_score": 0.3110712627208652,
+    "confidence_score": 0.7328531579683935,
+    "priority_score": 0.41649870502303715,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 158.36838908000001
+      },
+      {
+        "num_inputs": 5.0
+      },
+      {
+        "amount_total_output": 157.9703383
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 157.9703383
+      }
+    ],
+    "linked_transactions": [
+      "cd860539c5dbd95938080f48a521b1b27fb13669a1591f23bd22268f74b614db"
+    ],
+    "linked_wallets": [
+      "bc1guvlaa3d542ym6ek6eqq77kyszpaa0367xvjq06",
+      "bc1lpw3vd0yy5nrsx2chkdpdh0l4e6dlma6dqhf22f",
+      "3FU5g2UJ1tr3nfpRv1YEbDeK7Vy5o8Eejj"
+    ],
+    "linked_ips": [
+      "203.0.113.243"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (158.37), Num Inputs (5), and Amount Total Output (157.97) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.894909+00:00"
+  },
+  {
+    "alert_id": "c34cd99e-048b-4c76-b431-02809e2f5dc4",
+    "entity_id": "81972ec48341f92f60c5c44c6266a4840f3b45f7717c7a0d357873316ad02613",
+    "entity_type": "transaction",
+    "risk_score": 0.3029422533565578,
+    "confidence_score": 0.7342232157264228,
+    "priority_score": 0.41203231673186147,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 120.18702332
+      },
+      {
+        "num_inputs": 4.0
+      },
+      {
+        "amount_total_output": 120.01941282
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 120.01941282
+      }
+    ],
+    "linked_transactions": [
+      "81972ec48341f92f60c5c44c6266a4840f3b45f7717c7a0d357873316ad02613"
+    ],
+    "linked_wallets": [
+      "3JAu5gahQN5znAusXZCkBFaPHkknHcRc5p",
+      "bc1k340c9klad0nkj2lk7dxry0ecreftxtz2qthp5n",
+      "bc1057p5n3dqu29zn306dunx34728uqdqtsdzx7fjz"
+    ],
+    "linked_ips": [
+      "203.0.113.244"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "This transaction was flagged as a Low-risk Structural Anomaly. Specifically, the Amount Total Input (120.19), Num Inputs (4), and Amount Total Output (120.02) are highly unusual. The overall shape and fee structure of this transaction deviates significantly from standard network traffic. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T22:27:41.873660+00:00"
+  }
+]

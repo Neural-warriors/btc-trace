@@ -1,0 +1,8 @@
+{
+  "total_records": 500,
+  "train_records": 350,
+  "validation_records": 75,
+  "test_records": 75,
+  "feature_count": 25,
+  "generated_at": "2026-09-25T19:02:24.050868+00:00"
+}

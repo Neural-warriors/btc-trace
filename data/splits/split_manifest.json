@@ -1,0 +1,18 @@
+{
+  "split_method": "temporal",
+  "train": {
+    "count": 23,
+    "date_range": "2024-09-25 10:05:00+00:00 to 2024-09-25 14:45:00+00:00",
+    "file": "train/train.parquet"
+  },
+  "validation": {
+    "count": 4,
+    "date_range": "2024-09-25 15:00:00+00:00 to 2024-09-25 15:49:00+00:00",
+    "file": "validation/validation.parquet"
+  },
+  "test": {
+    "count": 6,
+    "date_range": "2024-09-25 16:03:00+00:00 to 2024-09-25 17:18:00+00:00",
+    "file": "test/test.parquet"
+  }
+}

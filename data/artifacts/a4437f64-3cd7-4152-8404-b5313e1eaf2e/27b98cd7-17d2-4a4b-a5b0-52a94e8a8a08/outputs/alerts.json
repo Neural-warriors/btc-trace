@@ -1,0 +1,234 @@
+[
+  {
+    "alert_id": "8f96e27e-38f0-4c47-9732-c8fe17d6a239",
+    "entity_id": "6e0267b509315c2104abd8df51cd7caa12b4bbbfbb40c04a893eafd588a3719e",
+    "entity_type": "transaction",
+    "risk_score": 0.5950000000000001,
+    "confidence_score": 0.72,
+    "priority_score": 0.6030000000000001,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 4383.5804003700005
+      },
+      {
+        "num_inputs": 38.0
+      },
+      {
+        "amount_total_output": 4351.40980046
+      },
+      {
+        "num_outputs": 3.0
+      },
+      {
+        "max_single_output": 1505.36616813
+      }
+    ],
+    "linked_transactions": [
+      "6e0267b509315c2104abd8df51cd7caa12b4bbbfbb40c04a893eafd588a3719e"
+    ],
+    "linked_wallets": [
+      "bc18j29gzdynx06k69d04ymt4m555etqfvn9pjakd6",
+      "bc1a72dneee8rxkkxdscpk7f9z7va2cu2hf2vjkmd7",
+      "bc1ek4xcphl5werdmma2nc928zd8fpautn4madnn8h"
+    ],
+    "linked_ips": [
+      "198.51.100.25"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "Transaction 6e0267b509315c2104abd8df51cd7caa12b4bbbfbb40c04a893eafd588a3719e was flagged for structural anomaly. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Top contributing evidence: Amount Total Input (4,384), Num Inputs (38.00), Amount Total Output (4,351). Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T19:53:13.969258+00:00"
+  },
+  {
+    "alert_id": "fc3caa25-ad3c-455e-be0a-e22799a4c07a",
+    "entity_id": "2499199e1fde6e8831297bbbf81c1d046d05811d9672582d13fbc0d1322a8847",
+    "entity_type": "transaction",
+    "risk_score": 0.4335424816299967,
+    "confidence_score": 0.72,
+    "priority_score": 0.576125488977998,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 222.47652835000002
+      },
+      {
+        "num_inputs": 2.0
+      },
+      {
+        "amount_total_output": 220.3553447
+      },
+      {
+        "num_outputs": 40.0
+      },
+      {
+        "max_single_output": 9.21462312
+      }
+    ],
+    "linked_transactions": [
+      "2499199e1fde6e8831297bbbf81c1d046d05811d9672582d13fbc0d1322a8847"
+    ],
+    "linked_wallets": [
+      "bc1a7k0mc3n383ana73k7cutgyp8yl0rea4qgnf7n4",
+      "11N4UnczBoPYiDWtdDo8ad6kNfdCc1YBBb"
+    ],
+    "linked_ips": [
+      "192.0.2.44"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "Transaction 2499199e1fde6e8831297bbbf81c1d046d05811d9672582d13fbc0d1322a8847 was flagged for structural anomaly. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Top contributing evidence: Amount Total Input (222.48), Num Inputs (2.00), Amount Total Output (220.36). Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T19:53:13.969659+00:00"
+  },
+  {
+    "alert_id": "a7c159f0-aec8-4286-9d16-9abb09f42f64",
+    "entity_id": "5728b7ee9785371184a0b87a5ac66b19271f09796ef41f28ee24838ffa04d3b9",
+    "entity_type": "transaction",
+    "risk_score": 0.38885514163949275,
+    "confidence_score": 0.72,
+    "priority_score": 0.5493130849836956,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 143.9802147
+      },
+      {
+        "num_inputs": 1.0
+      },
+      {
+        "amount_total_output": 142.81716989
+      },
+      {
+        "num_outputs": 38.0
+      },
+      {
+        "max_single_output": 7.39461809
+      }
+    ],
+    "linked_transactions": [
+      "5728b7ee9785371184a0b87a5ac66b19271f09796ef41f28ee24838ffa04d3b9"
+    ],
+    "linked_wallets": [
+      "1pfJSEkdWZ5hta5kuD8c85Qt5DYCZtUDYd"
+    ],
+    "linked_ips": [
+      "203.0.113.106"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "Transaction 5728b7ee9785371184a0b87a5ac66b19271f09796ef41f28ee24838ffa04d3b9 was flagged for structural anomaly. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Top contributing evidence: Amount Total Input (143.98), Num Inputs (1.00), Amount Total Output (142.82). Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T19:53:13.968778+00:00"
+  },
+  {
+    "alert_id": "1f1887e5-4354-4cf3-8b40-b3190e454b41",
+    "entity_id": "f26dedb35d6917f0c6f46a1dd949873095e413e90b38a7074c86efca34f8c85d",
+    "entity_type": "transaction",
+    "risk_score": 0.4594280866633115,
+    "confidence_score": 0.72,
+    "priority_score": 0.5116568519979869,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 1869.47400958
+      },
+      {
+        "num_inputs": 14.0
+      },
+      {
+        "amount_total_output": 1865.73921642
+      },
+      {
+        "num_outputs": 2.0
+      },
+      {
+        "max_single_output": 1085.77624315
+      }
+    ],
+    "linked_transactions": [
+      "f26dedb35d6917f0c6f46a1dd949873095e413e90b38a7074c86efca34f8c85d"
+    ],
+    "linked_wallets": [
+      "3NWazgHEjLhpBZwLanCpvQad15b8DXf7DC",
+      "bc13m8zhp7kcpevgl96jj5zeurh37eklc83rfwcmv5",
+      "158KGg8fDBktvJk6FEHPZ3mNyp1s5Dhvzi"
+    ],
+    "linked_ips": [
+      "192.0.2.125"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "Transaction f26dedb35d6917f0c6f46a1dd949873095e413e90b38a7074c86efca34f8c85d was flagged for structural anomaly. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Top contributing evidence: Amount Total Input (1,869), Num Inputs (14.00), Amount Total Output (1,866). Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T19:53:13.969862+00:00"
+  },
+  {
+    "alert_id": "957b3844-6519-46a9-b4a7-72b7cca66192",
+    "entity_id": "c888c150e6bf18b43183eb3aa7f450a76f24613953f43fc5c8121e68de2655f7",
+    "entity_type": "transaction",
+    "risk_score": 0.43290373368189056,
+    "confidence_score": 0.72,
+    "priority_score": 0.48574224020913437,
+    "alert_category": "structural_anomaly",
+    "top_contributing_features": [
+      {
+        "amount_total_input": 3458.5807566
+      },
+      {
+        "num_inputs": 27.0
+      },
+      {
+        "amount_total_output": 3443.714078
+      },
+      {
+        "num_outputs": 1.0
+      },
+      {
+        "max_single_output": 3443.714078
+      }
+    ],
+    "linked_transactions": [
+      "c888c150e6bf18b43183eb3aa7f450a76f24613953f43fc5c8121e68de2655f7"
+    ],
+    "linked_wallets": [
+      "3TWD7EoueP4L3ywgj9JNFw8hTG4HtCbNoh",
+      "3PZJNGtp2MH35w1XJ62gyCHauQWAVhacTT",
+      "3z6CsvWGyysJkL96qV4ggY46CRiZ3S3UQw"
+    ],
+    "linked_ips": [
+      "203.0.113.134"
+    ],
+    "graph_metrics": {},
+    "temporal_evidence": {},
+    "network_evidence": {},
+    "model_name": "IsolationForest",
+    "model_version": "1.0.0",
+    "dataset_version": "1.0.0",
+    "source_records": [],
+    "explanation": "Transaction c888c150e6bf18b43183eb3aa7f450a76f24613953f43fc5c8121e68de2655f7 was flagged for structural anomaly. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Top contributing evidence: Amount Total Input (3,459), Num Inputs (27.00), Amount Total Output (3,444). Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+    "created_at": "2026-09-25T19:53:13.969121+00:00"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "total": 100000,
+  "valid": 100000,
+  "invalid": 0,
+  "duplicates": 0,
+  "nulls_per_field": {
+    "timestamp": 0,
+    "src_ip": 0,
+    "dst_ip": 0,
+    "src_port": 0,
+    "dst_port": 0,
+    "txid": 0,
+    "input_addresses": 0,
+    "output_addresses": 0,
+    "input_amounts": 0,
+    "output_amounts": 0,
+    "fee": 0,
+    "script_type": 0,
+    "geo_country": 0,
+    "asn": 0,
+    "source_file": 0,
+    "original_row_number": 0
+  },
+  "invalid_reasons": {
+    "timestamp": 0,
+    "src_ip": 0,
+    "dst_ip": 0,
+    "txid": 0,
+    "fee": 0,
+    "input_addresses": 0
+  }
+}

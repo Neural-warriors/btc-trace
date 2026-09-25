@@ -1,0 +1,8 @@
+{
+  "num_records": 10050,
+  "num_unique_wallets": 2000,
+  "num_unique_ips": 500,
+  "num_unique_asns": 50,
+  "generated_at": "2026-09-25T23:00:22.729932",
+  "seed": 42
+}
