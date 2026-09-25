@@ -1,0 +1,16 @@
+risk_weights:
+  anomaly: 0.30
+  graph: 0.20
+  temporal: 0.20
+  network: 0.15
+  cluster: 0.15
+
+thresholds:
+  high_risk: 0.8
+  medium_risk: 0.5
+  low_risk: 0.3
+
+priority:
+  risk_weight: 0.6
+  confidence_weight: 0.3
+  connectivity_weight: 0.1
