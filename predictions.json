@@ -1,0 +1,160 @@
+{
+  "results": [
+    {
+      "txid": "4dab646bf26440beb51643146278ae4bd913d2e1216a4645a896f22a23890e32",
+      "risk_score": 0.445,
+      "anomaly_score": 1.0,
+      "is_flagged": true
+    },
+    {
+      "txid": "895af1d5e0bc4265bf38205b9e3da409266c035a35ac4393bef1bb2fab522f52",
+      "risk_score": 0.3784826990641376,
+      "anomaly_score": 0.5134442675598598,
+      "is_flagged": true
+    },
+    {
+      "txid": "19e1db0049ce4af2b2ee127a8fb3989c15b3644fd8e24cecbadb97101b338c29",
+      "risk_score": 0.21036175821151154,
+      "anomaly_score": 0.4727230521607001,
+      "is_flagged": false
+    },
+    {
+      "txid": "3540f7c8b53f43bfb2d06a0ae574bd4e0b4ab85667104109a6492275bf9e1b47",
+      "risk_score": 0.16545861525085803,
+      "anomaly_score": 0.37181711292327646,
+      "is_flagged": false
+    },
+    {
+      "txid": "732c750f00944b30866b50c13339853d52f1c124420d4283ae0de63527c177f8",
+      "risk_score": 0.08022714474775092,
+      "anomaly_score": 0.18028571853427172,
+      "is_flagged": false
+    },
+    {
+      "txid": "94a515141ee242b5b785f78677e77c03e9513af03b804a29a60d23609df3740d",
+      "risk_score": 0.07226231073536243,
+      "anomaly_score": 0.1623872151356459,
+      "is_flagged": false
+    },
+    {
+      "txid": "75abf7a060394a6ab545bc52244a7336d02e42768cf14657b206930c4d190024",
+      "risk_score": 0.0522044656982837,
+      "anomaly_score": 0.11731340606355888,
+      "is_flagged": false
+    },
+    {
+      "txid": "2e3c5e2b7d334e87ba34730b46220d107ef67d2a66eb419381f183ad2cd2e9f6",
+      "risk_score": 0.0325243170748599,
+      "anomaly_score": 0.07308835297721325,
+      "is_flagged": false
+    },
+    {
+      "txid": "6c314f7d4c214fd3b6ec88e2f66c7b11e4f791ec76974cd596db348992a64acd",
+      "risk_score": 0.003941546469429881,
+      "anomaly_score": 0.008857407796471643,
+      "is_flagged": false
+    },
+    {
+      "txid": "37f0cb0d1a2c411483fc209e8f3acdbb31c96b7e1b344b37be70851edb7192aa",
+      "risk_score": 0.0,
+      "anomaly_score": 0.0,
+      "is_flagged": false
+    }
+  ],
+  "alerts": [
+    {
+      "alert_id": "827d4b88-60c3-49cb-b4b4-e2f1d822a1e8",
+      "entity_id": "4dab646bf26440beb51643146278ae4bd913d2e1216a4645a896f22a23890e32",
+      "entity_type": "transaction",
+      "risk_score": 0.445,
+      "confidence_score": 0.6000000000000001,
+      "priority_score": 0.4570000000000001,
+      "alert_category": "structural_anomaly",
+      "top_contributing_features": [
+        {
+          "amount_total_input": 0.04
+        },
+        {
+          "num_inputs": 0.04
+        },
+        {
+          "amount_total_output": 0.04
+        },
+        {
+          "num_outputs": 0.04
+        },
+        {
+          "max_single_output": 0.04
+        }
+      ],
+      "linked_transactions": [
+        "4dab646bf26440beb51643146278ae4bd913d2e1216a4645a896f22a23890e32"
+      ],
+      "linked_wallets": [
+        "1h8NRZkDpFe3fid2EaQXukNxPkXzJXz8io",
+        "bc1tf5uphepa4gv5ku438wq7aafacfm9w2e5egzc0h",
+        "bc148xj8j9q483w9573nsf7scdwvhg6yq8szfhvfgh"
+      ],
+      "linked_ips": [
+        "242.160.30.15"
+      ],
+      "graph_metrics": {},
+      "temporal_evidence": {},
+      "network_evidence": {},
+      "model_name": "IsolationForest",
+      "model_version": "1.0.0",
+      "dataset_version": "New_Data",
+      "source_records": [],
+      "explanation": "Transaction 4dab646bf26440beb51643146278ae4bd913d2e1216a4645a896f22a23890e32 was flagged as a potential structural anomaly pattern. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+      "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+      "created_at": "2026-09-21T15:50:55.978026+00:00"
+    },
+    {
+      "alert_id": "96a28920-4dda-4acb-a0e6-820ad1fc1414",
+      "entity_id": "895af1d5e0bc4265bf38205b9e3da409266c035a35ac4393bef1bb2fab522f52",
+      "entity_type": "transaction",
+      "risk_score": 0.3784826990641376,
+      "confidence_score": 0.6000000000000001,
+      "priority_score": 0.41708961943848255,
+      "alert_category": "structural_anomaly",
+      "top_contributing_features": [
+        {
+          "amount_total_input": 0.04
+        },
+        {
+          "num_inputs": 0.04
+        },
+        {
+          "amount_total_output": 0.04
+        },
+        {
+          "num_outputs": 0.04
+        },
+        {
+          "max_single_output": 0.04
+        }
+      ],
+      "linked_transactions": [
+        "895af1d5e0bc4265bf38205b9e3da409266c035a35ac4393bef1bb2fab522f52"
+      ],
+      "linked_wallets": [
+        "3Pz8RkPuCsJpfAaJCiTCzSpcFLaVT36evM",
+        "1r9e8VJt97C8UrrbB86zQKkPwuWnj9aRhr",
+        "3dC5rCJScEotgrfaVg719axwcPnL4TrWq9"
+      ],
+      "linked_ips": [
+        "80.62.9.11"
+      ],
+      "graph_metrics": {},
+      "temporal_evidence": {},
+      "network_evidence": {},
+      "model_name": "IsolationForest",
+      "model_version": "1.0.0",
+      "dataset_version": "New_Data",
+      "source_records": [],
+      "explanation": "Transaction 895af1d5e0bc4265bf38205b9e3da409266c035a35ac4393bef1bb2fab522f52 was flagged as a potential structural anomaly pattern. The primary indicators highlight uncommon topological shapes in the transaction graph, suggesting automated structuring or layering of funds. Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+      "caveat": "Note: Statistical anomaly detection identifies unusual patterns but does not constitute evidence of criminal activity. IP address associations reflect network routing and do not prove wallet ownership or user identity.",
+      "created_at": "2026-09-21T15:50:55.978130+00:00"
+    }
+  ]
+}
