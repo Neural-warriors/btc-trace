@@ -1,0 +1,126 @@
+/Users/rinitesh/Documents/SIHPROJECT/btc-trace/backend/routers/alerts.py:15: FastAPIDeprecationWarning: `regex` has been deprecated, please use `pattern` instead
+  sort_by: str = Query("priority", regex="^(priority|risk)$")
+INFO:     Started server process [23159]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8001 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52181 - "GET /api/alerts HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/uvicorn/protocols/http/h11_impl.py", line 409, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/fastapi/applications.py", line 1138, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/middleware/errors.py", line 186, in __call__
+    raise exc
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/middleware/cors.py", line 85, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/middleware/exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/fastapi/routing.py", line 121, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/fastapi/routing.py", line 107, in app
+    response = await f(request)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/fastapi/routing.py", line 426, in app
+    raw_response = await run_endpoint_function(
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/fastapi/routing.py", line 316, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/starlette/concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/anyio/to_thread.py", line 63, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/anyio/_backends/_asyncio.py", line 2502, in run_sync_in_worker_thread
+    return await future
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/anyio/_backends/_asyncio.py", line 986, in run
+    result = context.run(func, *args)
+  File "/Users/rinitesh/Documents/SIHPROJECT/btc-trace/backend/routers/alerts.py", line 31, in get_alerts
+    return AlertListResponse(alerts=alerts, total=total, page=page, page_size=page_size)
+  File "/Users/rinitesh/Library/Python/3.9/lib/python/site-packages/pydantic/main.py", line 263, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 20 validation errors for AlertListResponse
+alerts.0.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.1.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.2.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.3.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.4.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.5.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.6.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.7.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.8.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.9.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.10.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.11.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.12.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.13.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.14.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.15.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.16.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.17.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.18.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+alerts.19.top_contributing_features
+  Input should be a valid dictionary [type=dict_type, input_value=array([{'amount_total_inp...': 0.04}], dtype=object), input_type=ndarray]
+    For further information visit https://errors.pydantic.dev/2.13/v/dict_type
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23159]
